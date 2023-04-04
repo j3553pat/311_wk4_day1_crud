@@ -66,12 +66,16 @@ select * from usersaddress;'''
 3. All three DELETES
 
 * DELETE from usersContact
+'''DELETE FROM userscontact  WHERE user_id = 114;'''
 
 
 * DELETE from usersAddress
+'''DELETE FROM usersaddress  WHERE user_id = 114;'''
 
 
 * DELETE from users
+ 
+'''DELETE FROM USERS WHERE id = 114;'''
 
 
 ## Summary
